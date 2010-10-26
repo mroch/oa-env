@@ -1,0 +1,19 @@
+PATH
+  remote: .
+  specs:
+    oa-env (0.0.1)
+      oa-core
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    oa-core (0.1.6)
+      rack (~> 1.1)
+    rack (1.2.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  oa-core
+  oa-env!
